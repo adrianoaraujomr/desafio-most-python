@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "40006899-0497-4a36-b1a3-921518e4686c",
+		"name": "Desafio MOST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.0.31:5001/reduzir",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": "/C:/Users/super/Downloads/19.jpg"
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5001/reduzir",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5001",
+					"path": [
+						"reduzir"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
